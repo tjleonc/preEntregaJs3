@@ -1,0 +1,66 @@
+.carousel-item{
+    max-height: 500px;
+}
+
+h3{
+    color: #fff;
+}
+
+h5{
+    color: #fff;
+}
+
+
+#footer{
+    background-color: #4ba2e7;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a{
+    transition: 1s;
+
+}
+
+.navbar ul li a:hover{
+    transition: 1s;
+    font-size: 22px;
+    color: black;
+}
+
+.card:hover{
+    box-shadow: 3px 5px 5px rgb(85, 85, 85);
+    transition: 1s;
+}
+
+
+
+/* .navbar ul li:nth-child(3) a:hover{ acá llamamos al hijo, el numero es la posicion del elemento que llamamos, el a es la etiqueta
+    color: red;
+    font-size: 22px;
+    transition: 1s;
+} */
+
+
+
+/*.navbar ul li a:active{ el active lo usamos para botones
+    transition: 1s;
+    font-size: 22px;
+    color: black;
+}*/
+
+
+
