@@ -1,0 +1,56 @@
+main{
+    background-color: white;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.titulo-principal{
+    color: #438cdf;
+    margin-bottom: 2rem;
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles{
+    background-color: #438cdf;
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-top: -2rem; /* hace que suba un item en vez de bajarlo */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.producto-titulo{
+    font-size: 1rem;
+}
+
+.producto-agregar{
+    border: 0;
+    background-color: white;
+    color: #438cdf;
+    padding: 0.4rem;
+    text-transform: uppercase; /* transforma el texto en mayuscula */
+    border-radius: 2rem;
+    cursor: pointer; /* se pone la manito */
+    border: 2px solid white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.producto-agregar:hover{
+    background-color: #438cdf;
+    color: white;
+}

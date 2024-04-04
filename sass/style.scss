@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'wrapper';
+@import 'main';
+@import 'aside';
+@import 'icons';
+@import 'carrito';
+@import 'disabled';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,input,textarea,ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none; /* se le saca los circulitos que trae */
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+

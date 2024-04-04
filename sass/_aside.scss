@@ -1,0 +1,92 @@
+aside{
+    padding: 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex; /* los pone a todos uno al lado del otro */
+    flex-direction: column; /* los vuelve a poner uno debajo del otro */
+    justify-content: space-between; /* Separa lo maximo posible entre ellos */
+    padding-right: 0;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.texto-footer{
+    color: rgb(104, 123, 209);
+    font-size: 0.85rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.boton-menu{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+    align-items: center;
+    width: 100%;
+}
+
+.boton-menu.active{
+    background-color: white;
+    color: #438cdf;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+
+/* Aca vemos como nos queda cuando ocupamos los  */
+.boton-menu.active::before{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    bottom: 100%;
+    right: 0;
+    background-color: transparent; 
+    border-bottom-right-radius:1rem ;
+    box-shadow: 0 1rem 0 white;
+
+}
+.boton-menu.active::after{
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    top: 100%;
+    right: 0;
+    background-color: transparent; 
+    border-top-right-radius:1rem ;
+    box-shadow: 0 -1rem 0 white;
+
+}
+
+.boton-carrito{
+    margin-top: 2rem;
+}
+
+.boton-carrito.active .numerito{
+    background-color: #438cdf;
+    color: white;
+}
+
+.numerito{
+    background-color: white;
+    color: #438cdf;
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+}
